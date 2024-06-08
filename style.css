@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #104E8B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+ .top-menu-home{
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .menu li{
+    list-style: none;
+    font-family: 'work sans', sans-serif;
+ }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+}
+
+.banner{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'noto serif', serif;
+}
+
+.intro{
+    background-color: #ffffff;
+    color: #111111;
+    width: 100%;
+    border: solid 1px #104E8B;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+    @media only screen and (max-width: 900px) {
+        flex-direction: column;
+    }
+}
+.card{
+    background-color: #ffffff;
+    color: #111111;
+    width: 30%;
+    border: solid 2px #104E8B;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    @media only screen and (max-width: 900px) {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    @media only screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+.button{
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 150px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #104E8B;
+    color: white;
+}
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+}
+
+.social-media-icons img {
+    width: 50px;
+    height: 50px;
+}
